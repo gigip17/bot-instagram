@@ -9,10 +9,10 @@ const url = "https://fr.linkedin.com/";
     await page.goto(url, { waitUntil: "networkidle2"});
     await page.setViewport({ width: 1920, height: 937 })
 
-    await page.type('[name="session_key"]', "pierre.gibrenne@protonmail.com", {
+    await page.type('[name="session_key"]', "********************", {
         delay:100
     });
-    await page.type('[name="session_password"]', "Giberlou17.", {
+    await page.type('[name="session_password"]', "*************", {
         delay:100
     });
     await page.click('button[type=submit');
